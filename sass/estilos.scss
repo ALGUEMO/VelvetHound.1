@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  body {
+    background: #e2e2e2;
+    background: linear-gradient(183deg, #e2e2e2 0%, #141329 100%);
+  }
+  
+  .redondear {
+    border-radius: 1.5rem;
+  }
+  
+  /*
+  ESTILOS BARRA DE NAVEGACION
+  */
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .nav-personal {
+    background: #5f2626;
+    
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("/img/ico/palomilla-ico.ico");
+  }
+  
+  /*
+  ESTILOS FONDOS PERSONALIZADOS
+  */
+  .bg-claro {
+    background-color: rgb(194, 194, 194);
+  }
